@@ -55,8 +55,8 @@ Siga os passos abaixo para configurar e executar o projeto em seu ambiente local
 ### 2. Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/gustavodsg/app_agricultura.git
+cd app_agricultura
 ```
 
 ### 3. Configuração do Banco de Dados
@@ -100,8 +100,7 @@ cd seu-repositorio
     ```bash
     pip install -r requirements.txt
     ```
-    *(Se o arquivo `requirements.txt` não existir, crie-o com `pip install psycopg2-binary` e depois rode `pip freeze > requirements.txt`)*
-
+    
 ### 5. Configuração da Aplicação
 
 1.  **Abra o arquivo `app_agricultura.py`** em um editor de texto.
